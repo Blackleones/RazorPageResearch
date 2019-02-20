@@ -5,12 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace WebApplication3.Pages.Standard.SectionA
+namespace RazorResearch.Core.SectionA
 {
-    public class PageAModel : PageModel
+    public class PageBModel : PageModel
     {
-        public virtual void OnGet()
+        public void OnGet()
         {
+
         }
     }
 }

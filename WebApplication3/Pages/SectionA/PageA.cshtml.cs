@@ -4,10 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WebApplication3.Pages.Standard.SectionA;
+using RazorResearch.Core.SectionA;
 
-namespace WebApplication3.Pages.Custom.SectionA
+namespace WebApplication3.Pages.SectionA
 {
+    /// <summary>
+    /// override partial
+    /// </summary>
     public class CustomPageAModel : PageAModel
     {
         public override void OnGet()
