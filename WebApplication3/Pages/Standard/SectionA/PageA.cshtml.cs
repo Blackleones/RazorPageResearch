@@ -9,8 +9,11 @@ namespace WebApplication3.Pages.Standard.SectionA
 {
     public class PageAModel : PageModel
     {
+        public string Hi = "Hello";
+
         public virtual void OnGet()
         {
+
         }
     }
 }

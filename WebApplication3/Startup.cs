@@ -33,7 +33,6 @@ namespace WebApplication3
 
             
             services.AddMvc()
-                .AddRazorPagesOptions(e => e.Conventions.Add(new MyRazorPageConvention()))
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
